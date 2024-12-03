@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="PortAnimalstyle.css">
+    <script src="Animalscript.js"></script>
+
+    <title>Vanishing Treasure</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logoimg" src="logo2.jpg" alt="Vanishing Treasures">
+            <h2 class="title">VANISHING TREASURES</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr color="white" size="8px">
+
+    <main>
+        <div class="banner">
+            <h2>TERRESTRIAL</h2>
+            <a href="Portfolio.html"><span class="close">&times;</span></a>
+        </div>
+
+        <section class="gallery">
+            <div class="gallery-item">
+                <a href="Terrimage.html"
+                    onclick="saveItem(
+                    'Philippine Pangolin', 
+                    'Manis culionensis',
+                    'This scaly mammal is critically endangered due to poaching and habitat destruction. Although primarily found in Palawan, sightings in other areas, including parts of Luzon, suggest that isolated populations may exist in regions like Tarlac.',
+                    'Islands of Palawan and Culion.',
+                    'The Philippine Pangolin is mostly found in Palawan and its neighboring islands. Sightings in Tarlac are extremely rare or undocumented due to its primary range being in western Philippines.',
+                    '1,000 to 2,000 individuals left.',
+                    'Highly targeted for illegal wildlife trade due to their scales and meat. Deforestation and land conversion for agriculture have destroyed their natural habit',
+                    'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Philippine_Pangolins_by_Gregg_Yan.jpg/1280px-Philippine_Pangolins_by_Gregg_Yan.jpg')">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Philippine_Pangolins_by_Gregg_Yan.jpg/1280px-Philippine_Pangolins_by_Gregg_Yan.jpg"
+                        alt="Philippine Pangolin">
+                    <p>Philippine Pangolin<br>(Manis culionensis)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Terrimage.html" onclick="saveItem(
+                    'Philippine Deer', 
+                    'Rusa marianna',
+                    'Once widespread, the Philippine deer is now endangered due to hunting and habitat loss. They are still found in forested and mountainous areas in Tarlac, though in much lower numbers.',
+                    'Several islands, including Luzon, Mindanao, and Mindoro.',
+                    'The Philippine deer can still be found in the forests of Luzon, Mindanao, and Samar. In Tarlac, it may only be found in small parts of the forest.',
+                    'Specific population estimates are not readily available.',
+                    'Deforestation and agricultural expansion have reduced their forested habitats.',
+                    'https://upload.wikimedia.org/wikipedia/commons/2/2a/Philippine_Deer_by_Gregg_Yan.jpg')">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Philippine_Deer_by_Gregg_Yan.jpg "
+                        alt="Philippine Deer">
+                    <p>Philippine Deer<br>(Rusa marianna)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Terrimage.html" onclick="saveItem(
+                    'Northern Luzon Giant Cloud Rat',
+                    'Phloeomys pallidus',
+                    'This large rodent, unique to Luzon, faces habitat threats due to deforestation. They are sometimes seen in forested parts of Tarlac.',
+                    'Luzon’s montane forests.',
+                    'The Northern Luzon Giant Cloud Rat is still found in the mountainous forests of northern and central Luzon, including degraded habitats such as plantations.',
+                    'The exact number of surviving individuals is difficult to pinpoint.',
+                    'Deforestation, particularly due to logging and agricultural expansion, has destroyed the forests they depend on.',
+                    'https://static.inaturalist.org/photos/28623286/original.jpg')">
+                    <img src="https://static.inaturalist.org/photos/28623286/original.jpg"
+                        alt="Northern Luzon Giant Cloud Rat">
+                    <p>Northern Luzon Giant Cloud Rat<br>(Phloeomys pallidus)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Terrimage.html" onclick="saveItem(
+                    'Philippine Warty Pig',
+                    'Sus philippensis',
+                    'This native wild pig is endangered primarily due to hunting and habitat destruction. It inhabits forests and remote rural areas, where it plays an essential role in local ecosystems.',
+                    'Several islands, including Luzon, Mindoro, and Samar.',
+                    'The Philippine warty pig is present in the forests of Luzon, Mindoro, and Samar. In Luzon, its habitat overlaps with provinces like Tarlac.',
+                    'Fewer than 5,000 individuals.',
+                    'Hunting for meat as well as conflicts with local farmers has reduced their population.',
+                    'https://upload.wikimedia.org/wikipedia/commons/2/2e/Philippine_warty_pig_%28Sus_philippensis%29_in_Philippine_Eagle_Center%2C_Davao%2C_Philippines.jpg')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Philippine_warty_pig_%28Sus_philippensis%29_in_Philippine_Eagle_Center%2C_Davao%2C_Philippines.jpg">
+                <p>Philippine Warty Pig<br>(Sus philippensis)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Terrimage.html" onclick="saveItem(
+                    'Philippine Long-Tailed Macaque',
+                    'Macaca fascicularis philippensis',
+                    'These monkeys are found in forested and rural areas in Tarlac and are endemic to the Philippines.',
+                    'Mainland Southeast Asia to the Philippine islands',
+                    'Is a monkey species found across many islands in the Philippines, including Luzon, Mindanao, and Palawan.',
+                    'Less than 2,500.',
+                    'Urbanization and deforestation have drastically reduced the macaques natural habitats. Trapping for the illegal pet trade has contributed to their decline.',
+                    'https://upload.wikimedia.org/wikipedia/commons/a/a0/Philippine_long-tailed_macaque.jpg')">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Philippine_long-tailed_macaque.jpg"
+                        alt="Philippine Long-Tailed Macaque">
+                    <p>Philippine Long-Tailed Macaque<br>(Macaca fascicularis philippensis)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Terrimage.html" onclick="saveItem(
+                    'Philippine Forest Turtle',
+                    'Siebenrockiella leytensis',
+                    'The Philippine forest turtle is a critically endangered species native to Palawan, Philippines. It primarily resides in the forests of this island, but its population is rapidly declining due to illegal wildlife trade, deforestation, and habitat destruction.',
+                    'Palawan, Philippines.',
+                    'This turtle is mainly found in Palawan, Philippines. It may have been seen in some areas near Tarlac, but the destruction of forests and illegal hunting have made it rare and difficult to find.',
+                    'Fewer than 100 individuals.',
+                    'Destruction of forests and natural habitats has decreased their numbers.',
+                    'https://upload.wikimedia.org/wikipedia/commons/3/33/Heosemys_leytensis04.jpg')">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Heosemys_leytensis04.jpg"
+                        alt="Philippine Forest Turtle">
+                    <p>Philippine Forest Turtle<br>(Siebenrockiella leytensis)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Terrimage.html"
+                    onclick="saveItem(
+                    'Philippine Tarsier',
+                    'Carlito syrichta.',
+                    'While commonly associated with Bohol, the Philippine tarsier has isolated populations in Luzon. Deforestation and human encroachment threaten its habitat, and its at risk of local extinction.',
+                    'Islands of Bohol, Samar, Leyte, and Mindanao.',
+                    'Limited to certain islands in the Visayas and Mindanao, but no evidence supports its natural presence in Tarlac. The Philippine tarsier is still found in areas like Bohol, Leyte, and Mindanao.',
+                    'There are fewer than 10,000.',
+                    'Logging and agricultural expansion have resulted in habitat loss.',
+                    'http://neprimateconservancy.org/wp-content/uploads/2021/11/philippine-tarsier-istock-533075115-resize2_orig.jpg')">
+                    <img src="http://neprimateconservancy.org/wp-content/uploads/2021/11/philippine-tarsier-istock-533075115-resize2_orig.jpg"
+                        alt="Philippine Tarsier">
+                    <p>Philippine Tarsier<br>(Carlito syrichta)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Terrimage.html" onclick="saveItem(
+                    'Golden-Capped Fruit Bat',
+                    'Acerodon jubatus',
+                    'Also known as the golden-capped fruit bat, is a rare megabat and one of the largest bats in the world. The species is endangered and is currently facing the possibility of extinction because of Illegal Hunting and destruction. It is endemic to forests in the Philippines.',
+                    'Luzon, Mindoro, Negros, and Mindanao.',
+                    'Also known as the giant golden-crowned flying fox, has been reported in forested areas in Tarlac, particularly in regions with intact and undisturbed habitats.',
+                    'About 10,000 individuals remaining.',
+                    'The destruction of old-growth forests, particularly for logging and agricultural expansion, has greatly reduced their natural habitats.',
+                    'https://upload.wikimedia.org/wikipedia/commons/9/97/Acerodon_jubatus_by_Gregg_Yan.jpg')">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Acerodon_jubatus_by_Gregg_Yan.jpg"
+                        alt="Golden-Capped Fruit Bat">
+                    <p>Golden-Capped Fruit Bat<br>(Acerodon jubatus)</p>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

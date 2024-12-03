@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="PortAnimalstyle.css">
+    <script src="Animalscript.js"></script>
+
+    <title>Vanishing Treasure</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logoimg" src="logo2.jpg" alt="Vanishing Treasures">
+            <h2 class="title">VANISHING TREASURES</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr color="white" size="8px">
+
+    <main>
+        <div class="banner">
+            <h2>AQUATIC</h2>
+            <a href="Portfolio.html"><span class="close">&times;</span></a>
+        </div>
+
+        <section class="gallery">
+            <div class="gallery-item">
+                <a href="Aquaimage.html" onclick="saveItem(
+                    'Philippine Freshwater Crocodile', 
+                    'Crocodylus mindorensis',
+                    'A critically endangered crocodile species found only in the Philippines. It is relatively small, with a maximum length of about 3 meters.',
+                    'Native to the Philippines, particularly in remote freshwater habitats like rivers and marshes.',
+                    'Found in some crocodile farm.',
+                    'Estimated to be under 100 individuals in the wild.',
+                    'Habitat destruction, hunting, and loss of freshwater ecosystems.',
+                    'https://upload.wikimedia.org/wikipedia/commons/f/f3/Crocodylus_mindorensis_by_Gregg_Yan_01.jpg')">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Crocodylus_mindorensis_by_Gregg_Yan_01.jpg"
+                        alt="Philippine Freshwater Crocodile">
+                    <p>Philippine Freshwater Crocodile<br>Crocodylus mindorensis</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Aquaimage.html" onclick="saveItem(
+                    'Freshwater Eel', 
+                    'Anguilla marmorata',
+                    'A large eel species found in freshwater rivers and lakes across Southeast Asia, known for its long, slender body and migratory behavior.',
+                    'Native to Southeast Asia and the western Pacific.',
+                    'Found in Tarlac’s rivers and freshwater systems.',
+                    'Exact population estimates are unclear, but they are in decline.',
+                    'Overfishing, habitat degradation, and pollution.',
+                    'https://www.ecologyasia.com/images-gh/giant-mottled-eeil_3236.jpg ')">
+                    <img src="https://www.ecologyasia.com/images-gh/giant-mottled-eeil_3236.jpg " alt="Freshwater Eel">
+                    <p>Freshwater Eel<br>(Anguilla marmorata)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Aquaimage.html"
+                    onclick="saveItem(
+                    'Silver Perch',
+                    'Leiopotherapon plumbeus',
+                    'A freshwater fish with a silver body and a sharp, laterally compressed shape. This species is often used in aquaculture.',
+                    'Native to freshwater environments across the Philippines.',
+                    'Found in aquaculture systems in Tarlac.',
+                    'Declining populations.',
+                    'Pollution, overfishing, and habitat destruction.',
+                    'https://www.amazingamazon.com.au/cdn/shop/files/silver-perch-amazing-amazon-1_grande.jpg?v=1694420543')">
+                    <img src="https://www.amazingamazon.com.au/cdn/shop/files/silver-perch-amazing-amazon-1_grande.jpg?v=1694420543"
+                        alt="Silver Perch">
+                    <p>Silver Perch<br>(Leiopotherapon plumbeus)</p>
+            </div>
+            <div class="gallery-item"
+                onclick="saveItem(
+                    'Asian Giant Softshell Turtle',
+                    'Pelochelys cantorii',
+                    'A large freshwater turtle species with a distinctive, soft shell and an aggressive temperament.',
+                    'Native to Southeast Asia.',
+                    'Present in Tarlac’s freshwater areas.',
+                    'Critically endangered with decreasing populations.',
+                    'Habitat loss, overexploitation, and illegal trade.',
+                    'https://media.istockphoto.com/id/475045352/photo/asian-giant-softshell-turtle-laos.jpg?s=612x612&w=0&k=20&c=2RSYJMsZjCzouM9BD-m--qm-nPk1OPHgPwt713-SdKY=')">
+                <img src="https://media.istockphoto.com/id/475045352/photo/asian-giant-softshell-turtle-laos.jpg?s=612x612&w=0&k=20&c=2RSYJMsZjCzouM9BD-m--qm-nPk1OPHgPwt713-SdKY="
+                    alt="Asian Giant Softshell Turtle">
+                <p>Asian Giant Softshell Turtle<br>(Pelochelys cantorii)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Aquaimage.html" onclick="saveItem(
+                    'Hampala Lopezi',
+                    'Hampala lopezi',
+                    'A species of freshwater fish, characterized by its elongated body and sharp, spiny fins. It’s typically found in Southeast Asian rivers.',
+                    'Native to the Philippines.',
+                    'Reported on some of the province\'s freshwater rivers and lakes.',
+                    'Threatened by overfishing.',
+                    'Overfishing and habitat degradation.',
+                    'https://www.fishbase.se/images/thumbnails/jpg/tn_Hasal_u5.jpg')">
+                    <img src="https://www.fishbase.se/images/thumbnails/jpg/tn_Hasal_u5.jpg" alt="Hampala Lopezi">
+                    <p>Hampala Lopezi<br>(Hampala lopezi)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Aquaimage.html" onclick="saveItem(
+                    'Liwalo (Climbing Perch)',
+                    'Anabas testudineus',
+                    'A hardy fish known for its ability to climb out of the water and travel short distances on land. It is common in slow-moving freshwater bodies.',
+                    'Native to Southeast Asia, including the Philippines.',
+                    'Common in lowland river systems and freshwater habitats.',
+                    'Faces threats in some areas.',
+                    'Overfishing, pollution, and habitat loss.',
+                    'https://fishbase.mnhn.fr/tools/UploadPhoto/uploads/Anabas20.jpg')">
+                    <img src="https://fishbase.mnhn.fr/tools/UploadPhoto/uploads/Anabas20.jpg"
+                        alt="Liwalo (Climbing Perch)">
+                    <p>Liwalo (Climbing Perch)<br>(Anabas testudineus)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Aquaimage.html"
+                    onclick="saveItem(
+                    'Caridina (Freshwater Shrimp)',
+                    'Caridina spp.',
+                    'A genus of small shrimp species found in freshwater. They are often used in aquarium settings and are an important part of the ecosystem.',
+                    'Native to the Philippines and Southeast Asia.',
+                    'Found in some of Tarlac’s freshwater rivers and ponds.',
+                    'Threatened by water pollution and habitat destruction.',
+                    'Pollution, overharvesting, and habitat loss.',
+                    'https://www.fishi-pedia.com/wp-content/uploads/2017/10/Caridina-logemanni-Super-Crystal-Red-Double-Lines.jpg')">
+                    <img src="https://www.fishi-pedia.com/wp-content/uploads/2017/10/Caridina-logemanni-Super-Crystal-Red-Double-Lines.jpg"
+                        alt="Caridina (Freshwater Shrimp)">
+                    <p>Caridina (Freshwater Shrimp)<br>(Caridina spp.)</p>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="Aquaimage.html"
+                    onclick="saveItem(
+                    'Endemic Cyprinids',
+                    'Barbodes spp.',
+                    'Small fish species found in freshwater ecosystems across the Philippines. Many are endemic to specific regions, including Tarlac.',
+                    'Endemic to the Philippines.',
+                    'Found in local freshwater systems, especially in rivers and ponds.',
+                    'Various species are declining.',
+                    'Habitat loss, overfishing, and pollution.',
+                    'https://www.researchgate.net/publication/241727816/figure/fig5/AS:668965797916676@1536505283774/Cyprinids-associated-with-bayous-swamps-lowland-lakes-and-sloughs-are-relatively.jpg')">
+                    <img src="https://www.researchgate.net/publication/241727816/figure/fig5/AS:668965797916676@1536505283774/Cyprinids-associated-with-bayous-swamps-lowland-lakes-and-sloughs-are-relatively.jpg"
+                        alt="Endemic Cyprinids">
+                    <p>Endemic Cyprinids<br>(Barbodes spp.)</p>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
